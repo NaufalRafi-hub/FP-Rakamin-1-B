@@ -50,7 +50,7 @@ const Login = () => {
         // await AsyncStorage.setItem("fullName", fullName);
   
         // Navigate to the Main screen upon successful login
-        navigation.replace("Home");
+        navigation.replace("RockPaper");
       } catch (error) {
         Alert.alert("Error", "Invalid email or password");
         console.error(error);

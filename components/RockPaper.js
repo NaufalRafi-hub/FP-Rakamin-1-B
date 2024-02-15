@@ -3,7 +3,7 @@ import { StyleSheet, SafeAreaView, Text, View, Animated } from "react-native";
 import Constants from "expo-constants";
 import DisplayResult from "./DisplayResult";
 import Actions from "./Actions";
-import Header from "./Header";
+// import Header from "./Header";
 
 export default function RockPaper() {
   const [userChoice, setUserChoice] = useState(0);
@@ -71,7 +71,7 @@ export default function RockPaper() {
   //balik ke tampilan awal
   return (
     <SafeAreaView style={styles.container}>
-      <Header />
+      {/* <Header /> */}
       <View style={styles.content}>
         <View style={styles.result}>
           <Animated.Text

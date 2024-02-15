@@ -5,6 +5,7 @@ import Login from './screen/login';
 import Signup from './screen/signup';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from "@react-navigation/stack";
+import RockPaper from './components/RockPaper';
 
 const Stack = createStackNavigator();
 
@@ -14,9 +15,10 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Login'>
         {/* <View style={styles.container}> */}
-          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="RockPaper" component={RockPaper} />
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Signup" component={Signup} />
+          {/* <RockPaper /> */}
         {/* </View> */}
       </Stack.Navigator>
     </NavigationContainer>
