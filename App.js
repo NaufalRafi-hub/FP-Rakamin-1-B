@@ -16,8 +16,8 @@ export default function App() {
       <Stack.Navigator initialRouteName='Login'>
         {/* <View style={styles.container}> */}
           <Stack.Screen name="RockPaper" component={RockPaper} />
-          {/* <Stack.Screen name="Login" component={Login} /> */}
-          {/* <Stack.Screen name="Signup" component={Signup} /> */}
+          <Stack.Screen name="Login" component={Login} />
+          <Stack.Screen name="Signup" component={Signup} />
           {/* <RockPaper /> */}
         {/* </View> */}
       </Stack.Navigator>
