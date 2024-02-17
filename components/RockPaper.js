@@ -110,13 +110,21 @@ const styles = StyleSheet.create({
 
   result: {
     height: 100,
-    justifyContent: "flex-end",
+    justifyContent: "center",
     alignItems: "center",
+    padding: 10,
+    flex: 1,
+    // color: "white",
+    backgroundColor: "#1F319D",
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20
+
   },
 
   resultText: {
     fontSize: 48,
     fontWeight: "bold",
+    color: "white"
   },
 
   screen: {

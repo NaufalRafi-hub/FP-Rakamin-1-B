@@ -11,7 +11,7 @@ const DisplayResult = ({ userChoice, computerChoice }) => {
         <FontAwesome5
           name={ICONS[userChoice - 1]}
           size={64}
-          color="yellow"
+          color="#1F319D"
           solid
           style={userChoice === 3 ? styles.scissorsLeftIcon : styles.leftIcon}
         />
@@ -22,7 +22,7 @@ const DisplayResult = ({ userChoice, computerChoice }) => {
         <FontAwesome5
           name={ICONS[computerChoice - 1]}
           size={64}
-          color="yellow"
+          color="black"
           solid
           style={
             computerChoice === 3 ? styles.scissorsRightIcon : styles.rightIcon

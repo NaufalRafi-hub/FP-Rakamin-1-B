@@ -10,7 +10,7 @@ const Actions = ({play, canPlay}) => {
             style={styles.actionButton}
             onPress={() => play(1)}
         >
-            <FontAwesome5 name = {'hand-rock'} size ={32} color='red' />
+            <FontAwesome5 name = {'hand-rock'} size ={32} color='white' />
         </TouchableOpacity>
 
         <TouchableOpacity // kertas
@@ -18,7 +18,7 @@ const Actions = ({play, canPlay}) => {
             style={styles.actionButton}
             onPress={() => play(2)}
         >
-            <FontAwesome5 name = {'hand-paper'} size ={32} color='red' />
+            <FontAwesome5 name = {'hand-paper'} size ={32} color='white' />
         </TouchableOpacity>
 
         <TouchableOpacity // gunting
@@ -26,7 +26,7 @@ const Actions = ({play, canPlay}) => {
             style={styles.actionButton}
             onPress={() => play(3)}
         >
-            <FontAwesome5 name = {'hand-scissors'} size ={32} color='red' style = {{ transform: [{rotate: '67deg'}]}}/>
+            <FontAwesome5 name = {'hand-scissors'} size ={32} color='white' style = {{ transform: [{rotate: '67deg'}]}}/>
         </TouchableOpacity>
     </View>
   );
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         height: 64,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'yellow',
+        backgroundColor: "#1F319D",
         borderRadius: 32,
     }
 })
